@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-echo "[script log] uninstalling all cocoapods versions"
-sudo gem uninstall cocoapods --all
-echo "[script log] installing cocoapods version 1.8.4"
-sudo gem install cocoapods -v 1.8.4
+echo "Uninstalling all CocoaPods versions"
+sudo gem uninstall cocoapods --all --executables
 
-echo "[script log] pod install..."
-pod install
+COCOAPODS_VER=`sed -n -e 's/^COCOAPODS: \([0-9.]*\)/\1/p' Podfile.lock`
+
+echo "Installing CocoaPods version $COCOAPODS_VER"
+sudo gem install cocoapods -v $COCOAPODS_VER
