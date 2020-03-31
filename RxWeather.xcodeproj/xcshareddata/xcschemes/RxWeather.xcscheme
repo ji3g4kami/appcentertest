@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CB4D693C1DE9A7D100DC0488"
-               BuildableName = "Wundercast.app"
-               BlueprintName = "Wundercast"
-               ReferencedContainer = "container:Wundercast.xcodeproj">
+               BlueprintIdentifier = "143FCAE224333E6B00D17DC8"
+               BuildableName = "RxWeather.app"
+               BlueprintName = "RxWeather"
+               ReferencedContainer = "container:RxWeather.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,10 +44,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CB4D693C1DE9A7D100DC0488"
-            BuildableName = "Wundercast.app"
-            BlueprintName = "Wundercast"
-            ReferencedContainer = "container:Wundercast.xcodeproj">
+            BlueprintIdentifier = "143FCAE224333E6B00D17DC8"
+            BuildableName = "RxWeather.app"
+            BlueprintName = "RxWeather"
+            ReferencedContainer = "container:RxWeather.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -61,10 +61,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CB4D693C1DE9A7D100DC0488"
-            BuildableName = "Wundercast.app"
-            BlueprintName = "Wundercast"
-            ReferencedContainer = "container:Wundercast.xcodeproj">
+            BlueprintIdentifier = "143FCAE224333E6B00D17DC8"
+            BuildableName = "RxWeather.app"
+            BlueprintName = "RxWeather"
+            ReferencedContainer = "container:RxWeather.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
